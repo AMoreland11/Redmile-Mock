@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    transition: opacity 400ms ease;
+}
+
+
+.red{
+    color: #d13239;
+    cursor: pointer;
+}
+
+
+/* Nav */
+
+#nav__bar-container {
+    max-width: 1600px;
+    padding: 2rem;
+    margin: auto;
+
+}
+
+.nav__bar-row {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.nav__bar-gr--container {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__divider,
+.divider{
+    width: 2px;
+    height: 2rem;
+    background: black;
+}
+
+.nav__bar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    width: 30%;
+    padding-top: 2rem;
+}
+
+.nav__bar-logo:hover {
+    transform: scale(1.12);
+}
+
+
+.nav__gaming,
+.nav__racing {
+    transition: all 300ms ease;
+    cursor: pointer ;
+}
+
+.nav__gaming:hover,
+.nav__racing:hover,
+.nav__player-portal:hover,
+.player__portal:hover{
+    color: #d13239;
+    transform: scale(1.1);
+}
+
+.nav__bar-links {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.player__portal{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__player-portal{
+    transition: all 300ms ease;
+}
+
+.nav__subscribe {
+    background-color: #d13239;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, .5);
+    transition: all 300ms ease;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.nav__subscribe:hover{
+    transform: scaleX(1.2);
+    background-color: white;
+    color: #d13239;
+}
+
+/* Links & Video */
+
+.links__container-row{
+    height: 3rem;
+    background-color: #d13239;  
+}
+
+.links{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.link, a{
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: all 300ms ease;
+}
+.link:hover, a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+.redmile__gaming-video {
+    width: 100%;
+}
+
+/* Promotions */
+
+#promotions{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+
+.promotion__header {
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.promotions__card-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.promotion__card{
+    display: flex;
+    width: 25%;
+    height: 550px;
+}
+
+.plan__1-card,
+.plan__2-card,
+.plan__3-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 4px 4px 4px 4px rgba(71, 66, 66, 0.5);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-bottom: 3rem;
+    box-shadow: 0 10px 8px 4px .2;
+}
+
+.derby__text {
+    padding-top: 2rem;
+}
+
+.events__btn{
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.more__details-btn{
+    transition: all 1.5s ease;
+}
+.more__details-btn:hover{
+    transform: translateY(1.2rem);
+}
+
+.power__hour-img{
+    width: 350px;
+    height: 250px;
+}
+
+.comedian__img{
+    width: 350px;
+    height: 250px;
+}
+
+.derby__img{
+    width: 350px;
+    height: 250px;
+}
+
+.date {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.time {
+    font-weight: 600;
+}
+
+/* section divider */
+
+.section__divider{
+    width: 1400px;
+    border-bottom: 2px solid black;
+    padding: 5rem 0 0 5rem;
+}
+
+
+/* Join Club */
+
+#join__club{
+    padding: 3rem 3rem 0 3rem;
+    margin: 4rem 8rem 0 8rem;
+}
+
+.join__club-container {
+    max-width: 1400px;
+}
+
+.join__club-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.join__club-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join__club-header{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.join__club-para{
+    width: 500px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+
+.learn__more-btn,
+.more__details-btn {
+    background-color: #d13239;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, .4);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.learn__more-btn:hover {
+    transform: translateY(1.2rem);
+}
+
+.excited__woman{
+    scale: 1.4;
+    z-index: -1;
+}
+
+.fanned__cards{
+    scale: 1.4;
+    z-index: -1;
+}
+
+/* jACKPOT BANNER */
+
+.jackpot__row{
+    background-color: rgb(255, 206, 0);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.money{
+    font-size: 2.7rem;
+}
+
+
+/* contacts */
+
+#contacts{
+    background-image: url(./Assets/footer-bg.jpg);
+    color: white;
+    font-weight: 700;
+}
+
+.info__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo{
+    scale:.75;
+    padding: 8px;
+    margin: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.hours__container {
+    line-height: 2rem;
+}
+.location__logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.address__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.address__header{
+    padding-bottom: 8px;
+    line-height: 2rem;
+}
+
+.divider{
+    width: 2px;
+    height: 100px;
+    background-color: white;
+}
+
+.connect__header{
+    padding-bottom: 2rem;
+}
+
+.fa-brands.fa-square-facebook,
+.fa-brands.fa-square-twitter,
+.fa-brands.fa-square-instagram{
+    width: 70px;
+    scale: 2;
+}
+
+
+.play__responsible {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid.fa-dice{
+    padding-right: 2rem;
+    scale: 3;
+}
+
+.play__responsible-container {
+    line-height: 2rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+
+.footer__links{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.footer__link::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms ease;
+}
+
+.footer__link{
+    color: white;
+}
+
+.footer__link:hover{
+    color: #d13239;
+}
+.link__hover-effect--white::after{
+    background-color: #d13239;
+}
+
+.footer__link:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+
+
+
+/* Animation */
+.scrolled.slide-up {
+    animation: slide-in-up 1.5s ease-in-out;
+}
+
+.scrolled.slide-down{
+    animation: slide-in-down 1.5s ease-in-out;
+}
+
+@keyframes slide-in-up {
+    0%{
+        transform: translateY(80%);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-down {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.scrolled.slide-left{
+    animation: slide-in-left 1.5s ease-in-out;
+}
+
+ .scrolled.slide-right {
+    animation: slide-in-right 1.5s ease-in-out;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-130%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
